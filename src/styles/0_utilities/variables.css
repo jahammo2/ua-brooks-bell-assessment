@@ -1,3 +1,14 @@
+/*
+ * I have added variables to my styles even though they are not supported
+ * in IE 10 or 11, two browsers requested in the assessment. With IE 10
+ * and 11, we have to specifically add the value in too so that the styles
+ * will fall back to something supported by IE 10 and 11.
+ *
+ * I still added the variables because I find them to be good reminders
+ * that if we make a change in one place, we'll need to be sure to make
+ * the update in others as well.
+ */
+
 :root {
   --color-xlight-gray: #CCC;
   --color-light-gray: #888;
