@@ -6,12 +6,9 @@
 
   --font-family-default: sans-serif;
 
-  --font-size-default: var(--font-size-sm);
-  --font-size-xs: 12px;
-  --font-size-sm: 16px;
-  --font-size-med: 20px;
-  --font-size-lg: 24px;
-  --font-size-xl: 32px;
+  --font-size-default: var(--font-size-med);
+  --font-size-sm: 12px;
+  --font-size-med: 16px;
 
   /* This appeared to be the break off point in the video */
   --max-width--all-screens: 518px;
@@ -23,5 +20,4 @@
   --spacing-sm: calc(var(--spacing-med) * 0.75); /* 12px */
   --spacing-med: var(--font-size-default); /* 16px */
   --spacing-lg: calc(var(--spacing-med) * 1.5); /* 24px */
-  --spacing-xl: calc(var(--spacing-med) * 2); /* 32px */
 }

@@ -20,7 +20,7 @@
   border: 2px solid #888;
   border: var(--spacing-xxxs) solid var(--color-light-gray);
   font-size: 12px;
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm);
   display: inline-block;
   padding: 4px 12px;
   padding: calc(var(--spacing-xxxs) * 1.5) var(--spacing-xs);
