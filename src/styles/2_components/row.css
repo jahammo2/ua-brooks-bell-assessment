@@ -1,0 +1,14 @@
+.c-row {
+  border: 2px solid #CCC;
+  border: var(--spacing-xxxs) solid var(--color-xlight-gray);
+  color: #333;
+  color: var(--color-dark-gray);
+  font-size: 20px;
+  font-size: var(--font-size-med);
+  margin-top: 16px;
+  margin-top: var(--spacing-sm);
+  max-width: 518px;
+  max-width: var(--max-width--all-screens);
+  padding: 16px;
+  padding: var(--spacing-med);
+}
