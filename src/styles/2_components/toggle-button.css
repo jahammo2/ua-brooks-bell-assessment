@@ -1,0 +1,56 @@
+/*
+ * I have added variables to my styles even though they are not supported
+ * in IE 10 or 11, two browsers requested in the assessment. With IE 10
+ * and 11, we have to specifically add the value in so that the styles
+ * will fall back to something supported by IE 10 and 11.
+ *
+ * I still added the variables because I find them to be good reminders
+ * that if we make a change in one place, we'll need to be sure to make
+ * the update in others as well.
+ */
+
+/* TODO: run through a prefixer */
+.c-toggle-button {
+  /* Using RGBA here to imitate what looks like some opacity in the box shadow.
+   * I usually would choose either hex or RGB and not deviate. */
+  -webkit-box-shadow: 2px 2px 0 0 rgba(153, 153, 153, 0.9);
+          box-shadow: 2px 2px 0 0 rgba(153, 153, 153, 0.9);
+  -webkit-box-shadow: calc(var(--spacing-xxxs)) var(--spacing-xxxs) 0 0 rgba(153, 153, 153, 0.9);
+          box-shadow: calc(var(--spacing-xxxs)) var(--spacing-xxxs) 0 0 rgba(153, 153, 153, 0.9);
+  border: 2px solid #888;
+  border: var(--spacing-xxxs) solid var(--color-light-gray);
+  font-size: 12px;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  padding: 4px 12px;
+  padding: calc(var(--spacing-xxxs) * 1.5) var(--spacing-xs);
+}
+
+.c-toggle-button:first-of-type {
+  margin-right: 32px;
+  margin-right: var(--spacing-lg);
+}
+
+.c-toggle-button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  cursor: pointer
+}
+
+/* This feature was not shown in the video but  */
+/* the instructions indicated this was expected. */
+/* Either way, I figured it wouldn't hurt to add. */
+
+/* iPhone 6/7/8 Plus screen width */
+@media screen and (max-width: 414px) {
+  .c-toggle-button {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+  }
+
+  .c-toggle-button:last-of-type {
+    margin-top: 20px;
+    margin-top: calc(var(--spacing-med) * 1.25);
+  }
+}

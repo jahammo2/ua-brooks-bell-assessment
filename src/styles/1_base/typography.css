@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  font-family: var(--font-family-default);
+}
+
+p {
+  line-height: 16px;
+  line-height: var(--font-size-sm);
+  margin: 0;
+}

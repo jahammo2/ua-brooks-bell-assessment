@@ -1,0 +1,23 @@
+:root {
+  --color-xlight-gray: #CCC;
+  --color-light-gray: #888;
+  --color-gray: #444;
+  --color-dark-gray: #333;
+
+  --font-family-default: sans-serif;
+
+  --font-size-default: var(--font-size-med);
+  --font-size-sm: 12px;
+  --font-size-med: 16px;
+
+  /* This appeared to be the break off point in the video */
+  --max-width--all-screens: 518px;
+
+  --spacing-default: var(--spacing-med);
+  --spacing-xxxs: calc(var(--spacing-med) * 0.125); /* 2px */
+  --spacing-xxs: calc(var(--spacing-med) * 0.25); /* 4px */
+  --spacing-xs: calc(var(--spacing-med) * 0.5); /* 8px */
+  --spacing-sm: calc(var(--spacing-med) * 0.75); /* 12px */
+  --spacing-med: var(--font-size-default); /* 16px */
+  --spacing-lg: calc(var(--spacing-med) * 1.5); /* 24px */
+}
